@@ -1,7 +1,9 @@
 <!-- Free personal project by Lonskiy Yegor. -->
-# Liquid Glass 3D Speed Dial & Workspace — Privacy & Terms of Use
+# `Liquid Glass 3D Speed Dial & Workspace`
 
-I’m **Lonskiy Yegor**, the creator of Liquid Glass 3D Speed Dial & Workspace. I built this free extension for myself and share it for personal, non-commercial use, as is.
+Privacy & Terms of Use · Конфиденциальность и условия использования
+
+I’m **Lonskiy Yegor**, the creator of `Liquid Glass 3D Speed Dial & Workspace`. I built this free extension for myself and share it for personal, non-commercial use, as is.
 
 - [Read in English](https://yegorlonskiy.github.io/liquid-glass-speed-dial-privacy/#en)
 - [Читать по-русски](https://yegorlonskiy.github.io/liquid-glass-speed-dial-privacy/#ru)
@@ -19,7 +21,7 @@ Questions or rightsholder requests: [open an issue](https://github.com/yegorlons
 
 ## По-русски
 
-Я — **Lonskiy Yegor**, создатель Liquid Glass 3D Speed Dial & Workspace. Я написал это бесплатное расширение прежде всего для себя и делюсь им для личного некоммерческого использования, «как есть».
+Я — **Lonskiy Yegor**, создатель `Liquid Glass 3D Speed Dial & Workspace`. Я написал это бесплатное расширение прежде всего для себя и делюсь им для личного некоммерческого использования, «как есть».
 
 Здесь размещены политика конфиденциальности и условия использования на русском и английском. В документе описаны локальные данные, резервные копии, онлайн-функции, разрешения браузера, часы и напоминания, источники аудио и видео, сторонние лицензии и добровольная поддержка. Донаты не обязательны, не открывают платных функций и не означают покупку услуги. Документы отдельного проекта Glass Image Lab находятся в своей папке.
 
