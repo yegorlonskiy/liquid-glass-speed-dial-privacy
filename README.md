@@ -1,58 +1,28 @@
-<!-- Liquid Glass is a free project by Lonskiy Yegor. This repository publishes its privacy policy. -->
+<!-- Free personal project by Lonskiy Yegor. -->
+# Liquid Glass 3D Speed Dial & Workspace — Privacy & Terms of Use
 
-# Liquid Glass — Privacy Policy
+I’m **Lonskiy Yegor**, the creator of Liquid Glass 3D Speed Dial & Workspace. I built this free extension for myself and share it for personal, non-commercial use, as is.
 
-Privacy-policy website for **Liquid Glass 3D Speed Dial & Workspace**, a free Microsoft Edge new-tab extension by **Lonskiy Yegor**.
+- [Read in English](https://yegorlonskiy.github.io/liquid-glass-speed-dial-privacy/#en)
+- [Читать по-русски](https://yegorlonskiy.github.io/liquid-glass-speed-dial-privacy/#ru)
 
-## Read the policy
+This repository hosts the public policy website. It does not contain the extension package or application source code. The separate Glass Image Lab documents remain in their own directory.
 
-- [English](https://yegorlonskiy.github.io/liquid-glass-speed-dial-privacy/#en)
-- [Русский](https://yegorlonskiy.github.io/liquid-glass-speed-dial-privacy/#ru)
+The policy covers local workspace data and backups, optional online features, browser permissions, clocks and reminders, audio and video providers, third-party credits, voluntary support and conditions of use. Donations are optional and do not unlock features or purchase a service. The full document governs; this overview does not replace it.
 
-**Privacy Policy URL for Microsoft Partner Center:**
+Radio connects directly to Code Radio, Space Travel Radio, MDK Space Radio and The Indie Beat’s Ambient, Jazz and Electronic channels. Provider references and conditions are listed in the policy. Bundled nature recordings are credited separately. YouTube and Google disclosures remain included.
 
+For the store’s privacy-policy field, use the published page:
 https://yegorlonskiy.github.io/liquid-glass-speed-dial-privacy/
 
-Use the published website URL above in the store listing. The repository's `tree/main` URL opens the file list instead of the policy website.
-
-## About this repository
-
-This repository contains the policy website, not the extension's installation package or application source code.
-
-| File | Purpose |
-| --- | --- |
-| `index.html` | Public privacy policy in English and Russian, published through GitHub Pages. |
-| `README.md` | Repository overview and the public policy link. |
-
-The policy was updated on **October 25, 2026** to describe extension version **3.10.5**.
-
-## Privacy overview
-
-- Saved workspace content is stored locally in the browser profile. The extension has no developer-operated analytics, advertising trackers or data server.
-- Online services are on by default for new installations and can be switched off beside About & Privacy in Settings. Updates preserve an existing saved choice. Enabled features send the required inputs to their named third-party providers.
-- Searches, chosen media, screenshots and external wallpapers are user-initiated features with the network behavior explained in the full policy.
-- The policy describes browser permissions, local task reminders, the image cache and its deletion, third-party services, backups and group PINs. A group PIN hides content in the interface; it does not encrypt stored data.
-
-This overview does not replace the [full privacy policy](https://yegorlonskiy.github.io/liquid-glass-speed-dial-privacy/).
-
-## Documentation questions
-
-For a problem with this policy website, [open an issue](https://github.com/yegorlonskiy/liquid-glass-speed-dial-privacy/issues). Issues are public: do not include backups, PINs, private URLs or personal information.
-
----
+Questions or rightsholder requests: [open an issue](https://github.com/yegorlonskiy/liquid-glass-speed-dial-privacy/issues). Issues are public; do not post personal information, confidential documents, private URLs, backups or PINs.
 
 ## По-русски
 
-Это сайт политики конфиденциальности бесплатного расширения новой вкладки Microsoft Edge **Liquid Glass 3D Speed Dial & Workspace**. Автор проекта — **Lonskiy Yegor**.
+Я — **Lonskiy Yegor**, создатель Liquid Glass 3D Speed Dial & Workspace. Я написал это бесплатное расширение прежде всего для себя и делюсь им для личного некоммерческого использования, «как есть».
 
-Репозиторий содержит страницу политики и её описание. Установочного архива и исходного кода приложения здесь нет.
+Здесь размещены политика конфиденциальности и условия использования на русском и английском. В документе описаны локальные данные, резервные копии, онлайн-функции, разрешения браузера, часы и напоминания, источники аудио и видео, сторонние лицензии и добровольная поддержка. Донаты не обязательны, не открывают платных функций и не означают покупку услуги. Документы отдельного проекта Glass Image Lab находятся в своей папке.
 
-Для поля **Privacy Policy** в Microsoft Partner Center используйте адрес:
+Радио воспроизводится напрямую с серверов Code Radio, Space Travel Radio, MDK Space Radio и трёх каналов The Indie Beat: Ambient, Jazz и Electronic. Источники, условия и атрибуции приведены в полном документе. Записи природы из установочного пакета описаны отдельно; сведения о YouTube и Google сохранены.
 
-https://yegorlonskiy.github.io/liquid-glass-speed-dial-privacy/
-
-Политика на русском и английском обновлена **25 октября 2026 года** для версии **3.10.5**. В ней описаны локальное хранение, разрешения браузера, онлайн-сервисы, включённые по умолчанию в новой установке, и возможность их отключить, сторонние поставщики, очистка кэша и незашифрованные резервные копии и PIN-коды.
-
-По вопросам самой страницы можно [создать issue](https://github.com/yegorlonskiy/liquid-glass-speed-dial-privacy/issues). Обсуждения публичные: не публикуйте резервные копии, PIN-коды, личные ссылки и персональные данные.
-
-**Liquid Glass — бесплатный проект без подписки и платных функций.** Сторонние материалы сохраняют авторство и лицензии своих правообладателей.
+По вопросам и обращениям правообладателей можно [создать issue](https://github.com/yegorlonskiy/liquid-glass-speed-dial-privacy/issues). Обсуждения публичные — не публикуйте личные данные, конфиденциальные документы, приватные ссылки, резервные копии или PIN-коды.
