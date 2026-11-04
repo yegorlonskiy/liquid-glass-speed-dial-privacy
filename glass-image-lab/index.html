@@ -34,7 +34,7 @@ nav{display:flex;flex-wrap:wrap;gap:10px 22px;margin:24px 0}section{scroll-margi
 <section id="privacy-en">
 <h2>1. Privacy</h2>
 <h3>Entirely local image processing</h3>
-<p>Glass Image Lab converts, resizes and compresses images inside your browser. The extension's scripts and codec libraries are included in the installation. Built-in browser processing also runs locally. Image processing works without an internet connection.</p>
+<p>Glass Image Lab converts, resizes and compresses images locally in Microsoft Edge and other supported Chromium browsers. The extension's scripts and codec libraries are included in the installation. Built-in browser processing also runs locally. Image processing works without an internet connection.</p>
 <p>I do not operate any servers or backend for receiving, processing or storing your images or collecting extension telemetry. The extension does not send me or third parties your images, output files, filenames, image metadata, location information or usage statistics. It contains no accounts, advertising, analytics, trackers or automatic error reporting.</p>
 <h3>Local storage, permissions and deletion</h3>
 <p>The extension stores only preferences on your device: language, appearance, color palette, processing settings, settings for individual work modes and saved presets. It does not synchronize them. Selected images and results are held in the open tab's memory. Removing a file from the queue releases its temporary resources; closing the tab clears the queue. This is not a secure-erasure guarantee for copies retained by the browser, operating system or backup tools.</p>
@@ -73,7 +73,7 @@ nav{display:flex;flex-wrap:wrap;gap:10px 22px;margin:24px 0}section{scroll-margi
 <p>Use of the application is voluntary. If you do not agree with these terms, the application does not suit your needs, or you are dissatisfied with how it works, you must stop using it and uninstall it.</p>
 </section>
 <section id="third-party-en">
-<h2>3. Third-party components and licenses</h2>
+<h2>3. Third-party components and licenses</h2><p><a href="https://yegorlonskiy.github.io/liquid-glass-speed-dial-privacy/glass-image-lab/Glass-Image-Lab-third-party-sources.zip">Download the HEIF component sources and rebuild instructions</a>. This archive includes the original upstream sources, their licenses and my LGPL adapter. The library is bundled locally and can be replaced in an unpacked copy of the extension.</p>
 <p>I use third-party libraries and codecs under their own licenses. Their authorship and intellectual property rights remain with their respective authors and rightsholders. These terms do not replace those licenses or reduce the rights they grant. Their warranty disclaimers and liability provisions apply according to their own terms. Inclusion does not mean their authors endorse Glass Image Lab or undertake support or liability for the application as a whole.</p>
 <ul class="credits">
 <li><a href="https://github.com/facebook/react">React / React DOM</a> — Meta Platforms, Inc. and affiliates; MIT.</li>
@@ -81,7 +81,7 @@ nav{display:flex;flex-wrap:wrap;gap:10px 22px;margin:24px 0}section{scroll-margi
 <li><a href="https://github.com/101arrowz/fflate">fflate</a> — Arjun Barrett; MIT.</li>
 <li><a href="https://github.com/mattdesl/gifenc">gifenc</a> — Matt DesLauriers; MIT.</li>
 <li><a href="https://github.com/photopea/UTIF.js">UTIF</a> — Photopea; MIT. <a href="https://github.com/nodeca/pako">pako</a> — Vitaly Puzrin and Andrei Tuputcyn; MIT.</li>
-<li><a href="https://github.com/jamsinclair/jSquash">jSquash AVIF, JXL, Resize and OxiPNG wrappers</a> — Jamie Sinclair and contributors; Apache-2.0. Underlying codecs retain their separate licenses.</li>
+<li><a href="https://github.com/jamsinclair/jSquash">jSquash AVIF, JXL, WebP, Resize and OxiPNG wrappers</a> — Jamie Sinclair and contributors; Apache-2.0. Underlying codecs retain their separate licenses.</li>
 <li><a href="https://github.com/AOMediaCodec/libavif">libavif</a> — Joe Drago and contributors; BSD-2-Clause for the core library, with separate notices for dependencies. <a href="https://github.com/libjxl/libjxl">libjxl</a> — the JPEG XL Project Authors; BSD-3-Clause for the core library, with separate notices for dependencies.</li>
 <li>Bundled resize/PNG components: OxiPNG — Joshua Holmer and contributors, MIT; Rust resize — PistonDevelopers and contributors, MIT; Magic Kernel — Serhii Tatarintsev, MIT; HQX component — Apache-2.0, with upstream attribution retained.</li>
 <li><a href="https://github.com/hoppergee/heic-to/tree/v1.6.7">heic-to</a> — Hopper Gee; LGPL-3.0. <a href="https://github.com/strukturag/libheif/tree/v1.23.7">libheif</a> — Struktur AG, Dirk Farin and contributors; LGPL-3.0. <a href="https://github.com/strukturag/libde265/tree/v1.0.16">libde265</a> — Struktur AG, Dirk Farin, Joachim Bauch and contributors; LGPL-3.0. Any “or later” permissions in the relevant upstream notices remain in effect.</li>
@@ -100,7 +100,7 @@ nav{display:flex;flex-wrap:wrap;gap:10px 22px;margin:24px 0}section{scroll-margi
 <section id="privacy-ru">
 <h2>1. Конфиденциальность</h2>
 <h3>Полностью локальная обработка</h3>
-<p>Glass Image Lab конвертирует, изменяет размер и сжимает изображения внутри браузера. Скрипты и библиотеки кодеков расширения входят в установочный пакет. Встроенные средства обработки браузера также работают локально. Для обработки изображений подключение к интернету не требуется.</p>
+<p>Glass Image Lab конвертирует, изменяет размер и сжимает изображения локально в Microsoft Edge и других поддерживаемых браузерах на Chromium. Скрипты и библиотеки кодеков расширения входят в установочный пакет. Встроенные средства обработки браузера также работают локально. Для обработки изображений подключение к интернету не требуется.</p>
 <p>У меня нет серверов или серверной системы для получения, обработки и хранения ваших изображений либо сбора телеметрии расширения. Расширение не отправляет мне или третьим лицам ваши изображения, результаты, имена файлов, метаданные, сведения о местоположении или статистику использования. В нём нет аккаунтов, рекламы, аналитики, трекеров и автоматической отправки отчётов об ошибках.</p>
 <h3>Локальное хранение, разрешения и удаление</h3>
 <p>На устройстве сохраняются только настройки: язык, оформление, палитра, параметры обработки, настройки отдельных режимов работы и сохранённые пресеты. Расширение не синхронизирует их. Выбранные изображения и результаты находятся в памяти открытой вкладки. Удаление файла из очереди освобождает временные ресурсы; закрытие вкладки очищает очередь. Это не является гарантией безвозвратного стирания копий, сохранённых браузером, операционной системой или средствами резервного копирования.</p>
@@ -139,7 +139,7 @@ nav{display:flex;flex-wrap:wrap;gap:10px 22px;margin:24px 0}section{scroll-margi
 <p>Использование приложения добровольно. Если вы не согласны с условиями, приложение вам не подходит или его работа вас не устраивает, вы обязаны прекратить использование и удалить приложение.</p>
 </section>
 <section id="third-party-ru">
-<h2>3. Сторонние компоненты и лицензии</h2>
+<h2>3. Сторонние компоненты и лицензии</h2><p><a href="https://yegorlonskiy.github.io/liquid-glass-speed-dial-privacy/glass-image-lab/Glass-Image-Lab-third-party-sources.zip">Скачать исходники HEIF-компонентов и инструкции по сборке</a>. Архив включает исходники сторонних библиотек, их лицензии и мой адаптер под LGPL. Библиотека включена в локальный пакет; её можно заменить в распакованной копии расширения.</p>
 <p>Я использую сторонние библиотеки и кодеки на условиях их лицензий. Авторство и интеллектуальные права на эти компоненты сохраняются за соответствующими авторами и правообладателями. Настоящие условия не заменяют эти лицензии и не сокращают предоставленные ими права. Содержащиеся в них отказы от гарантий и положения об ответственности действуют согласно самим лицензиям. Включение компонента не означает, что его авторы одобряют Glass Image Lab, обязуются поддерживать приложение в целом или отвечают за него.</p>
 <ul class="credits">
 <li><a href="https://github.com/facebook/react">React / React DOM</a> — Meta Platforms, Inc. и аффилированные лица; MIT.</li>
@@ -147,7 +147,7 @@ nav{display:flex;flex-wrap:wrap;gap:10px 22px;margin:24px 0}section{scroll-margi
 <li><a href="https://github.com/101arrowz/fflate">fflate</a> — Arjun Barrett; MIT.</li>
 <li><a href="https://github.com/mattdesl/gifenc">gifenc</a> — Matt DesLauriers; MIT.</li>
 <li><a href="https://github.com/photopea/UTIF.js">UTIF</a> — Photopea; MIT. <a href="https://github.com/nodeca/pako">pako</a> — Vitaly Puzrin и Andrei Tuputcyn; MIT.</li>
-<li><a href="https://github.com/jamsinclair/jSquash">Обёртки jSquash AVIF, JXL, Resize и OxiPNG</a> — Jamie Sinclair и участники проекта; Apache-2.0. Вложенные кодеки сохраняют собственные лицензии.</li>
+<li><a href="https://github.com/jamsinclair/jSquash">Обёртки jSquash AVIF, JXL, WebP, Resize и OxiPNG</a> — Jamie Sinclair и участники проекта; Apache-2.0. Вложенные кодеки сохраняют собственные лицензии.</li>
 <li><a href="https://github.com/AOMediaCodec/libavif">libavif</a> — Joe Drago и участники проекта; BSD-2-Clause для основной библиотеки, отдельные условия для зависимостей. <a href="https://github.com/libjxl/libjxl">libjxl</a> — авторы проекта JPEG XL; BSD-3-Clause для основной библиотеки, отдельные условия для зависимостей.</li>
 <li>Вложенные компоненты изменения размера и PNG: OxiPNG — Joshua Holmer и участники проекта, MIT; Rust resize — PistonDevelopers и участники проекта, MIT; Magic Kernel — Serhii Tatarintsev, MIT; компонент HQX — Apache-2.0 с сохранением исходных уведомлений об авторстве.</li>
 <li><a href="https://github.com/hoppergee/heic-to/tree/v1.6.7">heic-to</a> — Hopper Gee; LGPL-3.0. <a href="https://github.com/strukturag/libheif/tree/v1.23.7">libheif</a> — Struktur AG, Dirk Farin и участники проекта; LGPL-3.0. <a href="https://github.com/strukturag/libde265/tree/v1.0.16">libde265</a> — Struktur AG, Dirk Farin, Joachim Bauch и участники проекта; LGPL-3.0. Разрешения использовать более позднюю версию лицензии, если они есть в исходных уведомлениях, сохраняются.</li>
